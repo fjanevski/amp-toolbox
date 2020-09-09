@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7719d544-7d3a-4a32-87c7-e4e462173a96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OWNERS.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/lib/AmpCaches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/spec/AmpCachesSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/AmpCacheUrlGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/AmpCurlUrlGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/FontExtensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/ImageExtensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/browser/Sha256.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/node/Sha256.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/spec/AmpUrlSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/bin/amp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/curls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/downloadRuntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/helpMessages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/optimize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/runtimeVersion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/updateCache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cliSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/curlsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/helpSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/invalidKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/lintSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/optimizeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/privateKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/runtimeVersionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/updateCacheSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/versionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/helpers/MockLogger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/ioSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/test-data/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/FileSystemCache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/IsAmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/Log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/MaxAge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/oneBehindFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/FileSystemCacheSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/IsAmpSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/MaxAgeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/OneBehindFetchSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/demo/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/demo/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/lib/cors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/spec/lib/corsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/audits/valid-amp-audit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/caches.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/cli.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/filter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpImgAmpPixelPreferred.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpImgHeightWidthIsOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpVideoIsSmall.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpVideoIsSpecifiedByAttribute.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/BookendExists.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/EndpointsAreAccessibleFromCache.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/EndpointsAreAccessibleFromOrigin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/ImagesHaveAltText.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/IsValid.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/LinkRelCanonicalIsOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/MetaCharsetIsFirst.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/MetadataIncludesOGImageSrc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/RuntimeIsPreloaded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SchemaMetadataIsNews.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SchemaMetadataIsRecent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryIsMostlyText.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryMetadataIsV1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryMetadataThumbnailsAreOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryRuntimeIsV1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgAmppkgIsForwarded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgContentNegotiationIsOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgDumpSignedExchangeVerify.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgVaryOnAcceptAct.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/TitleMeetsLengthCriteria.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/VideosAreSubtitled.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/VideosHaveAltText.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/validate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/caches.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampstoryv1metadata1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampstoryv1metadata2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendcache1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendcache2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorgin4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorigin1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorigin2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorigin3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/corsendpoints1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/corsendpoints2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/getimagesize.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/getinlinemetadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/getschemametadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgamppkg1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgamppkg2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgamppkg3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgconneg1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgconneg2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgconneg3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvalidity1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvalidity2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvalidity3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvideosize1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvideosize2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvideosize3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/lib.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-4/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-5/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BookendExists-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BookendExists-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BookendExists-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/ImagesHaveAltText-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/ImagesHaveAltText-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetaCharsetIsFirst-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetaCharsetIsFirst-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetadataIncludesOGImageSrc-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetadataIncludesOGImageSrc-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetadataIncludesOGImageSrc-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/RuntimeIsPreloaded-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/RuntimeIsPreloaded-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/SchemaMetadataIsNews-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/SchemaMetadataIsNews-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/StoryRuntimeIsV1-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/StoryRuntimeIsV1-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/TitleMeetsLengthCriteria-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/TitleMeetsLengthCriteria-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosAreSubtitled-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosAreSubtitled-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosHaveAltText-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosHaveAltText-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/network.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/public/img/amp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/lib/AmpOptimizeMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/lib/UrlMapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/spec/lib/AmpOptimizerMiddlewareSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/spec/lib/UrlMappingSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/optimizer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/lib/DownloadRuntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/spec/lib/DownloadRuntimeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/lib/RuntimeVersion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/spec/lib/RuntimeVersionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/lib/calculateHash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/spec/calculateHashSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/lib/Signature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/lib/UpdateCacheUrlProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/spec/SignatureSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/spec/UpdateCacheUrlProviderSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/lib/AmpValidatorRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/lib/loadRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/spec/AmpValidatorRulesSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettier.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/cli/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/lighthouse-plugin-amp/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/linter/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/optimizer/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/optimizer-express/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/runtime-fetch/node_modules/" />
+    <ignored path="$PROJECT_DIR$/packages/update-cache/node_modules/" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/optimizer/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/optimizer/lib/DomTransformer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/optimizer/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/packages/optimizer/lib/DomTransformer.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="1680" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="amp-toolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amp-toolbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amp-toolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amp-toolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7719d544-7d3a-4a32-87c7-e4e462173a96" name="Default Changelist" comment="" />
+      <created>1599645853121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599645853121</updated>
+      <workItem from="1599645854215" duration="2734000" />
+      <workItem from="1599664567841" duration="870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3604000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1680" y="0" width="1920" height="1200" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21991481" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="aws.explorer" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32920355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Serverless Framework GUI" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/optimizer/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/optimizer/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/optimizer/lib/DomTransformer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="92" column="12" selection-start-line="92" selection-start-column="12" selection-end-line="92" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

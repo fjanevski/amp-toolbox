@@ -1,7 +1,0 @@
-{
-  "branchName": "main",
-  "extends": [
-    "config:base"
-  ],
-  "labels": ["internal"]
-}
