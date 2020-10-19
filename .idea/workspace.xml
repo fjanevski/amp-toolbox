@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4482e6e3-acce-4cff-aedb-deea825c048f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OWNERS.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lerna.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/lib/AmpCaches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-list/spec/AmpCachesSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/AmpCacheUrlGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/AmpCurlUrlGenerator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/FontExtensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/ImageExtensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/browser/Sha256.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/lib/node/Sha256.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cache-url/spec/AmpUrlSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/bin/amp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/curls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/downloadRuntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/helpMessages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/lint.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/optimize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/runtimeVersion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/updateCache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/cmds/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/lib/io.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cliSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/curlsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/helpSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/invalidKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/lintSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/optimizeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/privateKey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/runtimeVersionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/updateCacheSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/cmds/versionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/helpers/MockLogger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/ioSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/spec/test-data/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/FileSystemCache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/IsAmp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/Log.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/MaxAge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/lib/oneBehindFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/FileSystemCacheSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/IsAmpSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/MaxAgeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/core/spec/lib/OneBehindFetchSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/demo/express.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/demo/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/lib/cors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cors/spec/lib/corsSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/audits/valid-amp-audit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/lighthouse-plugin-amp/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/caches.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/cli.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/filter.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/helper.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpImgAmpPixelPreferred.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpImgHeightWidthIsOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpVideoIsSmall.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/AmpVideoIsSpecifiedByAttribute.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/BlockingExtensionsPreloaded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/BoilerplateIsRemoved.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/BookendExists.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/EndpointsAreAccessibleFromCache.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/EndpointsAreAccessibleFromOrigin.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/FastGoogleFontsDisplay.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/FontsArePreloaded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/GoogleFontPreconnect.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/HeroImageIsDefined.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/ImagesHaveAltText.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/IsTransformedAmp.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/IsValid.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/LinkRelCanonicalIsOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/MetaCharsetIsFirst.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/MetadataIncludesOGImageSrc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/ModuleRuntimeUsed.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/RuntimeIsPreloaded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SchemaMetadataIsNews.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SchemaMetadataIsRecent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryIsMostlyText.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryMetadataIsV1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryMetadataThumbnailsAreOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/StoryRuntimeIsV1.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgAmppkgIsForwarded.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgContentNegotiationIsOk.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgDumpSignedExchangeVerify.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/SxgVaryOnAcceptAct.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/TitleMeetsLengthCriteria.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/VideosAreSubtitled.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/rules/VideosHaveAltText.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/src/validate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/caches.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampimg5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampstoryv1metadata1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/ampstoryv1metadata2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendcache1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendcache2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorgin4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorigin1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorigin2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/bookendsameorigin3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/cors4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/corsendpoints1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/corsendpoints2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/getimagesize.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/getinlinemetadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/getschemametadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgamppkg1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgamppkg2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgamppkg3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgconneg1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgconneg2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgconneg3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/sxgvary4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testcanonical4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvalidity1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvalidity2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvalidity3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvideosize1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvideosize2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/testvideosize3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/fixtures/thumbnails5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/helper.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/lib.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-4/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/AmpImgAmpPixelPreferred-5/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BlockingExtensionsPreloaded-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BlockingExtensionsPreloaded-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BlockingExtensionsPreloaded-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BoilerplateIsRemoved-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BoilerplateIsRemoved-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BoilerplateIsRemoved-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BoilerplateIsRemoved-4/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BoilerplateIsRemoved-5/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BookendExists-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BookendExists-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/BookendExists-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/FastGoogleFontsDisplay-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/FastGoogleFontsDisplay-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/FontsArePreloaded-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/FontsArePreloaded-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/FontsArePreloaded-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/GoogleFontPreconnect-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/GoogleFontPreconnect-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/GoogleFontPreconnect-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/HeroImageIsDefined-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/HeroImageIsDefined-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/HeroImageIsDefined-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/ImagesHaveAltText-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/ImagesHaveAltText-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/IsTransformedAmp-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/IsTransformedAmp-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetaCharsetIsFirst-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetaCharsetIsFirst-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetadataIncludesOGImageSrc-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetadataIncludesOGImageSrc-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/MetadataIncludesOGImageSrc-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/ModuleRuntimeUsed-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/ModuleRuntimeUsed-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/RuntimeIsPreloaded-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/RuntimeIsPreloaded-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/RuntimeIsPreloaded-3/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/SchemaMetadataIsNews-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/SchemaMetadataIsNews-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/StoryRuntimeIsV1-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/StoryRuntimeIsV1-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/TitleMeetsLengthCriteria-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/TitleMeetsLengthCriteria-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosAreSubtitled-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosAreSubtitled-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosHaveAltText-1/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/local/VideosHaveAltText-2/source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tests/network.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/linter/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/proxy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/public/img/amp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/demo/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/lib/AmpOptimizeMiddleware.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/lib/UrlMapping.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/spec/lib/AmpOptimizerMiddlewareSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer-express/spec/lib/UrlMappingSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/cheerio/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/cheerio/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/cheerio/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/cheerio/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/cheerio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/cheerio/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/cheerio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/cheerio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/cheerio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/cheerio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/public/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/public/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/views/error.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/views/error.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/express/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/demo/express/views/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/gulp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gulp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/gulp/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gulp/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/gulp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gulp/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/gulp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/gulp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/gulp/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/markdown/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/markdown/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/markdown/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/markdown/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/markdown/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/markdown/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/markdown/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/markdown/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/src/AMP_for_E-Commerce_Getting_Started.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/src/AMP_for_E-Commerce_Getting_Started.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/src/Hello_World.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/src/Hello_World.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/src/How_to_publish_AMPs.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/src/How_to_publish_AMPs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/demo/simple/src/Internationalization.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/simple/src/Internationalization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/AmpConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AmpConstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/DomTransformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/DomTransformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/Extensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Extensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/HtmlDomHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/HtmlDomHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/NodeUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/NodeUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/ParseLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ParseLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/PathResolver.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/PathResolver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/RuntimeHostHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RuntimeHostHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/TreeParser.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/TreeParser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/URLUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/URLUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/fetchImageDimensions.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetchImageDimensions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/fetchRuntimeParameters.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fetchRuntimeParameters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/htmlEscape.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/htmlEscape.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/image-optimizers/simpleRename.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/image-optimizers/simpleRename.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/isDependencyInstalled.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/isDependencyInstalled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/parseSizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/parseSizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/parseSrcSet.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/parseSrcSet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AddAmpLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AddAmpLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AddBlurryImagePlaceholders.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AddBlurryImagePlaceholders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AddMandatoryTags.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AddMandatoryTags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AddTransformedFlag.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AddTransformedFlag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AmpBoilerplateTransformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AmpBoilerplateTransformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AmpScriptCsp.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AmpScriptCsp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/ApplyCommonAttributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/ApplyCommonAttributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/ApplyLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/ApplyLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/AutoExtensionImporter.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/AutoExtensionImporter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/GoogleFontsPreconnect.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/GoogleFontsPreconnect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/Markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/Markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/MinifyHtml.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/MinifyHtml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/OptimizeImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/OptimizeImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/PreloadHeroImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/PreloadHeroImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/PreloadImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/PreloadImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/PruneDuplicateResourceHints.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/PruneDuplicateResourceHints.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/RemoveAmpAttribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/RemoveAmpAttribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/RemoveCspNonce.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/RemoveCspNonce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/ReorderHeadTransformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/ReorderHeadTransformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/RewriteAmpUrls.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/RewriteAmpUrls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/SeparateKeyframes.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/SeparateKeyframes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/transformers/ServerSideRendering.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/ServerSideRendering.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/lib/warmup.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/warmup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/assets/500fish.gif" beforeDir="false" afterPath="$PROJECT_DIR$/spec/assets/500fish.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/assets/bball.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spec/assets/bball.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/assets/small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/spec/assets/small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/assets/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/spec/assets/tree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/EndToEndSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/EndToEndSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/body-only/expected_output.default.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/body-only/expected_output.default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/body-only/expected_output.lts.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/body-only/expected_output.lts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/body-only/expected_output.paired.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/body-only/expected_output.paired.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/body-only/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/body-only/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/hello-world/expected_output.default.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/hello-world/expected_output.default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/hello-world/expected_output.lts.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/hello-world/expected_output.lts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/hello-world/expected_output.paired.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/hello-world/expected_output.paired.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/hello-world/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/hello-world/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/markdown/expected_output.default.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/markdown/expected_output.default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/markdown/expected_output.lts.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/markdown/expected_output.lts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/markdown/expected_output.paired.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/markdown/expected_output.paired.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/markdown/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/markdown/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/story/expected_output.default.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/story/expected_output.default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/story/expected_output.lts.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/story/expected_output.lts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/story/expected_output.paired.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/story/expected_output.paired.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/end-to-end/story/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/end-to-end/story/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/helpers/TransformerRunner.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/TransformerRunner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/helpers/Utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/Utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/helpers/logging.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/logging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/helpers/reporter.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/helpers/reporter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/DomTransformer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/DomTransformer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/HtmlDomHelper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/HtmlDomHelper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/ParseLayoutSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/ParseLayoutSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/PathResolverSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/PathResolverSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/TreeParserSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/TreeParserSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/parseSizesSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/parseSizesSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/lib/parseSrcSetSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/parseSrcSetSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/TransformerSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/TransformerSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/AddAmpLink/inserts_link_to_amp_doc/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/AddAmpLink/inserts_link_to_amp_doc/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/AddAmpLink/inserts_link_to_amp_doc/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/AddAmpLink/inserts_link_to_amp_doc/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/AddBlurryImagePlaceholders/adds_blurry_placeholders_where_needed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/AddBlurryImagePlaceholders/adds_blurry_placeholders_where_needed/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/AddBlurryImagePlaceholders/adds_blurry_placeholders_where_needed/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/AddBlurryImagePlaceholders/adds_blurry_placeholders_where_needed/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/AddBlurryImagePlaceholders/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/AddBlurryImagePlaceholders/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RemoveAmpAttribute/remove_amp/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RemoveAmpAttribute/remove_amp/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RemoveAmpAttribute/remove_amp/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RemoveAmpAttribute/remove_amp/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RemoveAmpAttribute/remove_amp_uppercase/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RemoveAmpAttribute/remove_amp_uppercase/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RemoveAmpAttribute/remove_amp_uppercase/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RemoveAmpAttribute/remove_amp_uppercase/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RemoveAmpAttribute/remove_⚡/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RemoveAmpAttribute/remove_⚡/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RemoveAmpAttribute/remove_⚡/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RemoveAmpAttribute/remove_⚡/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_esm/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_esm/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_esm/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_esm/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_geoapi/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_geoapi/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_geoapi/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_geoapi/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_lts/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_lts/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_lts/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_lts/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_preloads/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_preloads/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_preloads/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_preloads/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_runtime_version/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_runtime_version/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/adds_runtime_version/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_runtime_version/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/rewrites_host_and_adds_version/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/rewrites_host_and_adds_version/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/rewrites_host_and_adds_version/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/rewrites_host_and_adds_version/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/rewrites_hosts/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/rewrites_hosts/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/RewriteAmpUrls/rewrites_hosts/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/rewrites_hosts/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/ServerSideRendering/transforms_layout_intrinsic/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/ServerSideRendering/transforms_layout_intrinsic/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/experimental/ServerSideRendering/transforms_layout_intrinsic/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/ServerSideRendering/transforms_layout_intrinsic/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/adds-missing-tags/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/adds-missing-tags/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/adds-missing-tags/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/adds-missing-tags/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/keeps-existing-tags/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/keeps-existing-tags/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/keeps-existing-tags/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/keeps-existing-tags/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/minimal-valid-html5-doc/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/minimal-valid-html5-doc/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/minimal-valid-html5-doc/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/minimal-valid-html5-doc/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/only-head-and-body/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/only-head-and-body/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/only-head-and-body/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/only-head-and-body/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/turns-empty-file-into-valid-amp-doc/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/turns-empty-file-into-valid-amp-doc/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AddMandatoryTags/turns-empty-file-into-valid-amp-doc/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AddMandatoryTags/turns-empty-file-into-valid-amp-doc/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpBoilerplateTransformer/always_inlines_v0css/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpBoilerplateTransformer/always_inlines_v0css/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpBoilerplateTransformer/always_inlines_v0css/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpBoilerplateTransformer/always_inlines_v0css/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpBoilerplateTransformer/does_not_add_v0.css_if_style_amp-runtime_not_present/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpBoilerplateTransformer/does_not_add_v0.css_if_style_amp-runtime_not_present/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpBoilerplateTransformer/does_not_add_v0.css_if_style_amp-runtime_not_present/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpBoilerplateTransformer/does_not_add_v0.css_if_style_amp-runtime_not_present/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpScriptCsp/adds_correct_hashes/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpScriptCsp/adds_correct_hashes/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpScriptCsp/adds_correct_hashes/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpScriptCsp/adds_correct_hashes/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpScriptCsp/appends_existing_meta/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpScriptCsp/appends_existing_meta/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpScriptCsp/appends_existing_meta/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpScriptCsp/appends_existing_meta/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpScriptCsp/ignores_empty_scripts/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpScriptCsp/ignores_empty_scripts/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AmpScriptCsp/ignores_empty_scripts/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AmpScriptCsp/ignores_empty_scripts/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/allow-specific-version/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/allow-specific-version/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/allow-specific-version/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/allow-specific-version/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-access-laterpay/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-access-laterpay/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-access-laterpay/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-access-laterpay/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-bind-bindX/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-bind-bindX/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-bind-bindX/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-bind-bindX/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-bind-data-amp-bind/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-bind-data-amp-bind/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-bind-data-amp-bind/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-bind-data-amp-bind/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-bind-square-brackets/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-bind-square-brackets/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-bind-square-brackets/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-bind-square-brackets/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-carousel/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-carousel/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-carousel/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-carousel/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-form/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-form/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-form/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-form/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-subscriptions/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-subscriptions/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/amp-subscriptions/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/amp-subscriptions/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/auto-imports-missing-extensions/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/auto-imports-missing-extensions/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/auto-imports-missing-extensions/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/auto-imports-missing-extensions/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/ignores-existing-extensions/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/ignores-existing-extensions/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/AutoExtensionImporter/ignores-existing-extensions/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/ignores-existing-extensions/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/adds_only_one_preconnect/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/adds_only_one_preconnect/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/adds_only_one_preconnect/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/adds_only_one_preconnect/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_after_meta_charset/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_after_meta_charset/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_after_meta_charset/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_after_meta_charset/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_when_google_fonts_css_exists/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_when_google_fonts_css_exists/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_when_google_fonts_css_exists/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/adds_preconnect_when_google_fonts_css_exists/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/does_not_add_preconnect_when_google_fonts_not_present/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/does_not_add_preconnect_when_google_fonts_not_present/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/GoogleFontsPreconnect/does_not_add_preconnect_when_google_fonts_not_present/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/GoogleFontsPreconnect/does_not_add_preconnect_when_google_fonts_not_present/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/Markdown/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/Markdown/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/Markdown/converts_img_tags/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/Markdown/converts_img_tags/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/Markdown/converts_img_tags/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/Markdown/converts_img_tags/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/minifies_inline_JSON/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/minifies_inline_JSON/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/minifies_inline_JSON/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/minifies_inline_JSON/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/minifies_inline_amp-script/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/minifies_inline_amp-script/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/minifies_inline_amp-script/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/minifies_inline_amp-script/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/removes_comments/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/removes_comments/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/removes_comments/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/removes_comments/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/removes_unneeded_whitespace/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/removes_unneeded_whitespace/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/MinifyHtml/removes_unneeded_whitespace/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/MinifyHtml/removes_unneeded_whitespace/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/OptimizeImages/adds_srcset/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/OptimizeImages/adds_srcset/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/OptimizeImages/adds_srcset/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/OptimizeImages/adds_srcset/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-iframe/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-iframe/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-iframe/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-iframe/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-iframe_data-hero/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-iframe_data-hero/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-iframe_data-hero/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-iframe_data-hero/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-img/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-img/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-img/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-img/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-video_with_missing_poster/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-video_with_missing_poster/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-video_with_missing_poster/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-video_with_missing_poster/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-video_with_poster/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-video_with_poster/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/amp-video_with_poster/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/amp-video_with_poster/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/attributes/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/attributes/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/attributes/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/attributes/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img_maximum/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img_maximum/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img_maximum/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/data-hero_amp-img_maximum/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/disable_via_param/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/disable_via_param/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/disable_via_param/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/disable_via_param/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/does_not_duplicate_existing_image_preload/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/does_not_duplicate_existing_image_preload/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/does_not_duplicate_existing_image_preload/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/does_not_duplicate_existing_image_preload/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/fixed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/fixed/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/fixed/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/fixed/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/hero_image_dimensions_from_parent_container/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/hero_image_dimensions_from_parent_container/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/hero_image_dimensions_from_parent_container/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/hero_image_dimensions_from_parent_container/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/hero_image_dimesions_from_parent_container-_too_small/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/hero_image_dimesions_from_parent_container-_too_small/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/hero_image_dimesions_from_parent_container-_too_small/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/hero_image_dimesions_from_parent_container-_too_small/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-iframe/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-iframe/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-iframe/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-iframe/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-img/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-img/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-img/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-img/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-video/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-video/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-video/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_data_uris_amp-video/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_non_image_preloads/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_non_image_preloads/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_non_image_preloads/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_non_image_preloads/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_intrinsic/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_intrinsic/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_intrinsic/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_intrinsic/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_responsive/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_responsive/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_responsive/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/ignores_tiny_images_responsive/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/intrinsic-layout/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/intrinsic-layout/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/intrinsic-layout/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/intrinsic-layout/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-iframe/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-iframe/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-iframe/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-iframe/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-img/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-img/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-img/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-img/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video-iframe/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video-iframe/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video-iframe/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video-iframe/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/media_attribute_amp-video/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/no_dimension_from_parent_because_layout_is_not_responsive_or_fill/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/no_dimension_from_parent_because_layout_is_not_responsive_or_fill/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/no_dimension_from_parent_because_layout_is_not_responsive_or_fill/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/no_dimension_from_parent_because_layout_is_not_responsive_or_fill/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/no_dimensions_in_parent_containers/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/no_dimensions_in_parent_containers/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/no_dimensions_in_parent_containers/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/no_dimensions_in_parent_containers/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/no_display_layout/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/no_display_layout/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/no_display_layout/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/no_display_layout/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/responsive-layout/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/responsive-layout/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/responsive-layout/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/responsive-layout/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/same_as_above_with_nodisplay_layout_removed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/same_as_above_with_nodisplay_layout_removed/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/same_as_above_with_nodisplay_layout_removed/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/same_as_above_with_nodisplay_layout_removed/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/srcset_cannot_be_preloaded/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/srcset_cannot_be_preloaded/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/srcset_cannot_be_preloaded/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/srcset_cannot_be_preloaded/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/srcset_validity_empty_srcset/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/srcset_validity_empty_srcset/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadHeroImage/srcset_validity_empty_srcset/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/srcset_validity_empty_srcset/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/adds_only_five_images/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/adds_only_five_images/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/adds_only_five_images/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/adds_only_five_images/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/adds_preload_link_to_image/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/adds_preload_link_to_image/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/adds_preload_link_to_image/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/adds_preload_link_to_image/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/does_not_add_repeated_preloads/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/does_not_add_repeated_preloads/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/does_not_add_repeated_preloads/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/does_not_add_repeated_preloads/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/preloads_amp-video_poster/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/preloads_amp-video_poster/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/preloads_amp-video_poster/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/preloads_amp-video_poster/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/preserves_media_attribute/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/preserves_media_attribute/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/preserves_media_attribute/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/preserves_media_attribute/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/skips_images_inside_templates/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/skips_images_inside_templates/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/skips_images_inside_templates/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/skips_images_inside_templates/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/skips_images_with_srcset/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/skips_images_with_srcset/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PreloadImages/skips_images_with_srcset/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadImages/skips_images_with_srcset/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicate_links/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicate_links/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicate_links/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicate_links/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicates_exact/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicates_exact/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicates_exact/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PruneDuplicateResourceHints/remove_duplicates_exact/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PruneDuplicateResourceHints/removes_duplicate_preloads/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PruneDuplicateResourceHints/removes_duplicate_preloads/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/PruneDuplicateResourceHints/removes_duplicate_preloads/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PruneDuplicateResourceHints/removes_duplicate_preloads/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/RemoveCspNonce/removes-nonce-attributes-from-scripts/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/RemoveCspNonce/removes-nonce-attributes-from-scripts/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/RemoveCspNonce/removes-nonce-attributes-from-scripts/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/RemoveCspNonce/removes-nonce-attributes-from-scripts/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_link_icons/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_link_icons/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_link_icons/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_link_icons/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_unique_custom_elements/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_unique_custom_elements/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_unique_custom_elements/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/keeps_multiple_unique_custom_elements/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_move_base_js_first/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_move_base_js_first/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_move_base_js_first/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_move_base_js_first/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_move_blocking_js_first/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_move_blocking_js_first/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_move_blocking_js_first/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_move_blocking_js_first/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_move_resource_hints_top/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_move_resource_hints_top/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_move_resource_hints_top/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_move_resource_hints_top/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_remove_duplicate_custom_elements/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_remove_duplicate_custom_elements/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/optimize_remove_duplicate_custom_elements/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/optimize_remove_duplicate_custom_elements/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/preserves_amp_custom_style_order/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/preserves_amp_custom_style_order/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/preserves_amp_custom_style_order/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/preserves_amp_custom_style_order/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/reorders_head_a4a/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/reorders_head_a4a/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/reorders_head_a4a/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/reorders_head_a4a/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/reorders_head_amphtml/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/reorders_head_amphtml/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ReorderHeadTransformer/reorders_head_amphtml/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ReorderHeadTransformer/reorders_head_amphtml/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/doesnt_add_tag_with_no_keyframes/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/doesnt_add_tag_with_no_keyframes/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/doesnt_add_tag_with_no_keyframes/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/doesnt_add_tag_with_no_keyframes/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/doesnt_move_invalid_keyframes/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/doesnt_move_invalid_keyframes/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/doesnt_move_invalid_keyframes/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/doesnt_move_invalid_keyframes/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/doesnt_move_media_supports_no_keyframes/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/doesnt_move_media_supports_no_keyframes/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/doesnt_move_media_supports_no_keyframes/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/doesnt_move_media_supports_no_keyframes/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/ignores_amp_stories/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/ignores_amp_stories/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/ignores_amp_stories/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/ignores_amp_stories/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/moves_existing_keyframes_to_end/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/moves_existing_keyframes_to_end/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/moves_existing_keyframes_to_end/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/moves_existing_keyframes_to_end/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/moves_keyframes/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/moves_keyframes/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/moves_keyframes/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/moves_keyframes/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/moves_keyframes_with_existing/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/moves_keyframes_with_existing/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/SeparateKeyframes/moves_keyframes_with_existing/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/SeparateKeyframes/moves_keyframes_with_existing/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/adds_i_amphtml_layout_attribute/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/adds_i_amphtml_layout_attribute/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/adds_i_amphtml_layout_attribute/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/adds_i_amphtml_layout_attribute/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp-story_present/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp-story_present/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp-story_present/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp-story_present/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp_experiment_present/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp_experiment_present/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp_experiment_present/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_not_removed_when_amp_experiment_present/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_empty/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_empty/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_empty/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_empty/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_invalid_json/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_invalid_json/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_invalid_json/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_invalid_json/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_no_tag/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_no_tag/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_no_tag/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_removed_when_amp_experiment_present_but_no_tag/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_then_noscript_removed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_then_noscript_removed/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/boilerplate_then_noscript_removed/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/boilerplate_then_noscript_removed/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/converts_heights_attribute_to_css/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/converts_heights_attribute_to_css/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/converts_heights_attribute_to_css/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/converts_heights_attribute_to_css/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/converts_media_attribute_to_css/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/converts_media_attribute_to_css/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/converts_media_attribute_to_css/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/converts_media_attribute_to_css/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/converts_sizes_attribute_to_css/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/converts_sizes_attribute_to_css/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/converts_sizes_attribute_to_css/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/converts_sizes_attribute_to_css/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_apply_transformations_if_already_present/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_apply_transformations_if_already_present/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_apply_transformations_if_already_present/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_apply_transformations_if_already_present/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_break_noscript_tags/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_break_noscript_tags/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_break_noscript_tags/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_break_noscript_tags/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_change_content_in_templates/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_change_content_in_templates/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_change_content_in_templates/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_change_content_in_templates/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_heights_attribute/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_heights_attribute/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_heights_attribute/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_heights_attribute/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_sizes_attribute/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_sizes_attribute/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_sizes_attribute/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_convert_invalid_sizes_attribute/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_transform_amp_audio/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_transform_amp_audio/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_transform_amp_audio/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_transform_amp_audio/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_transform_invalid_measurements/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_transform_invalid_measurements/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/does_not_transform_invalid_measurements/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_transform_invalid_measurements/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/empty_custom_styles/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/empty_custom_styles/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/empty_custom_styles/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/empty_custom_styles/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/noscript_then_boilerplate_removed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/noscript_then_boilerplate_removed/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/noscript_then_boilerplate_removed/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/noscript_then_boilerplate_removed/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/removes_amp_boilerplate/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/removes_amp_boilerplate/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/removes_amp_boilerplate/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/removes_amp_boilerplate/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_container/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_container/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_container/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_container/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_fill/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_fill/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_fill/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_fill/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed_height/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed_height/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed_height/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_fixed_height/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_height/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_height/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_height/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_height/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width_and_height/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width_and_height/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width_and_height/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_flex_item_with_width_and_height/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_nodisplay/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_nodisplay/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_nodisplay/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_nodisplay/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_responsive/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_responsive/expected_output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/transformers/valid/ServerSideRendering/transforms_layout_responsive/input.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/transforms_layout_responsive/input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/ValidAmpSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/ValidAmpSpec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/AMP_for_E-Commerce_Getting_Started.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/AMP_for_E-Commerce_Getting_Started.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Advanced_User_Consent_Flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Advanced_User_Consent_Flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Advanced_Video_Docking.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Advanced_Video_Docking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Animated_Snackbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Animated_Snackbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Autosuggest.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Autosuggest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Autosuggest_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Autosuggest_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Basics_of_orientation_effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Basics_of_orientation_effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Basics_of_scrollbound_effects.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Basics_of_scrollbound_effects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Checkout_Flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Checkout_Flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Click-to-play_overlay_for_amp-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Click-to-play_overlay_for_amp-video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Client-side_filtering.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Client-side_filtering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/ComboBox.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/ComboBox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Comment_Section.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Comment_Section.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Copy_Button.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Copy_Button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Custom_Loading_Indicators.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Custom_Loading_Indicators.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Dynamic_Content_After_User-Interaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Dynamic_Content_After_User-Interaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/External_User_Consent_Flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/External_User_Consent_Flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Favorite_Button.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Favorite_Button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Geolocation-based_Consent_Flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Geolocation-based_Consent_Flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Geolocation_with_amp-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Geolocation_with_amp-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Hotel.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Hotel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Housing.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Housing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/How_to_support_Images_with_unknown_Dimensions%3F.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/How_to_support_Images_with_unknown_Dimensions%3F.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Image_Galleries_with_amp-carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Image_Galleries_with_amp-carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Integrating_Videos_in_AMP_an_Overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Integrating_Videos_in_AMP_an_Overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Internationalization.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Internationalization.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Joining_Analytics_Sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Joining_Analytics_Sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Linked_Dropdowns.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Linked_Dropdowns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Long_List_of_amp-instagram_Embeds.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Long_List_of_amp-instagram_Embeds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Mixing_Dynamic_and_Cached_Data.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Mixing_Dynamic_and_Cached_Data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Multi_Page_Flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Multi_Page_Flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/News_Article.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/News_Article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/OAuth2_Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/OAuth2_Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Paged_List.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Paged_List.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Payments_in_AMP.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Payments_in_AMP.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Poll.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Poll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Product_Browse_Page.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Product_Browse_Page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Product_Page.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Product_Page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Recipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Recipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Rich_Media_Notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Rich_Media_Notifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Scroll_to_top.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Scroll_to_top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/SeatMap.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/SeatMap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/SeatMap_Multiple_Selection.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/SeatMap_Multiple_Selection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Shopping_Cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Shopping_Cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Show_More_Button.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Show_More_Button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Star_Rating.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Star_Rating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Tab_Panels_with_amp-selector.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Tab_Panels_with_amp-selector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Using_the_AMP_URL_API.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Using_the_AMP_URL_API.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Using_the_Google_AMP_Cache.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Using_the_Google_AMP_Cache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Video_Carousels_with_amp-carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Video_Carousels_with_amp-carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/Video_rotate_to_fullscreen_with_hint.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/Video_rotate_to_fullscreen_with_hint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/_Basic_User_Consent_Flow.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/_Basic_User_Consent_Flow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/_Hello_World.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/_Hello_World.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/_How_to_publish_AMPs.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/_How_to_publish_AMPs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-3d-gltf.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-3d-gltf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-access-laterpay.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-access-laterpay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-access.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-access.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-accordion.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-accordion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-ad.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-ad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-addthis.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-addthis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-analytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-anim.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-anim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-app-banner.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-app-banner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-audio.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-audio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-bind.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-bodymovin-animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-bodymovin-animation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-brid-player.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-brid-player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-brightcove.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-brightcove.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-call-tracking.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-call-tracking.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-dailymotion.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-dailymotion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-date-countdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-date-countdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-date-display.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-date-display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-date-picker.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-date-picker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-dynamic-css-classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-dynamic-css-classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-experiment.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-experiment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-facebook-comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-facebook-comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-facebook-like.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-facebook-like.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-facebook-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-facebook-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-facebook.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-facebook.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-fit-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-fit-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-font.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-font.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-fx-collection.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-fx-collection.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-fx-flying-carpet.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-fx-flying-carpet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-geo.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-geo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-gfycat.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-gfycat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-gist.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-gist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-google-document-embed.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-google-document-embed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-hulu.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-hulu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-iframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-ima-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-ima-video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-image-lightbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-image-lightbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-image-slider.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-image-slider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-img.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-img.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-inputmask.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-inputmask.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-instagram.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-instagram.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-install-serviceworker.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-install-serviceworker.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-jwplayer.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-jwplayer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-kaltura-player.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-kaltura-player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-lightbox-gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-lightbox-gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-lightbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-lightbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-live-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-live-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-mustache.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-mustache.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-next-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-next-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-o2-player.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-o2-player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-pinterest.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-pinterest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-pixel.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-pixel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-reach-player.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-reach-player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-reddit.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-reddit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-selector.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-selector.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-social-share.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-social-share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-soundcloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-soundcloud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-springboard-player.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-springboard-player.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-sticky-ad.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-sticky-ad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-timeago.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-timeago.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-twitter.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-twitter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-user-notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-user-notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-video-iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-video-iframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-vimeo.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-vimeo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-vine.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-vine.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/amp-youtube.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/amp-youtube.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/files/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/files/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/optimizer/spec/valid-amp/tmp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/spec/valid-amp/tmp/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/lib/DownloadRuntime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-fetch/spec/lib/DownloadRuntimeSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/lib/RuntimeVersion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/runtime-version/spec/lib/RuntimeVersionSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/lib/calculateHash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/script-csp/spec/calculateHashSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/demo/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/lib/Signature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/lib/UpdateCacheUrlProvider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/spec/SignatureSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/update-cache/spec/UpdateCacheUrlProviderSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/lib/AmpValidatorRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/lib/loadRules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/validator-rules/spec/AmpValidatorRulesSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prettier.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/cache.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/cache.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="amp-toolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amp-toolbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="amp-toolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="amp-toolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4482e6e3-acce-4cff-aedb-deea825c048f" name="Default Changelist" comment="" />
+      <created>1603099200085</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603099200085</updated>
+      <workItem from="1603099201428" duration="330000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="330000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="972" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="aws.explorer" side_tool="true" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Serverless Framework GUI" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

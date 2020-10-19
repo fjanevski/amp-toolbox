@@ -1,5 +1,0 @@
-# Enfore LF line endings to make string comparisons work in tests
-* text eol=lf
-*.png binary
-*.jpg binary
-*.gif binary
