@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4482e6e3-acce-4cff-aedb-deea825c048f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/aborts_with_existing_image_preload/expected_output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/aborts_with_existing_image_preload/input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_appy_transformations_if_already_present/expected_output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/transformers/valid/ServerSideRendering/does_not_appy_transformations_if_already_present/input.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/transformers/PreloadHeroImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/transformers/PreloadHeroImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_esm/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/experimental/RewriteAmpUrls/adds_esm/expected_output.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/AutoExtensionImporter/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/same_as_above_with_nodisplay_layout_removed/expected_output.html" beforeDir="false" afterPath="$PROJECT_DIR$/spec/transformers/valid/PreloadHeroImage/same_as_above_with_nodisplay_layout_removed/expected_output.html" afterDir="false" />
-    </list>
+    <list default="true" id="4482e6e3-acce-4cff-aedb-deea825c048f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -137,12 +124,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603099200085</updated>
-      <workItem from="1603099201428" duration="531000" />
+      <workItem from="1603099201428" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="531000" />
+    <option name="totallyTimeSpent" value="563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="6" />
